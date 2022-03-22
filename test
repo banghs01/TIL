@@ -1,5 +1,6 @@
 # 깃 허브를 통해 git_lecture와 share_git_lecture의 버전 일치시키기
-# 수정 저장 add commit(git lecture <-> hub <-> share)
+# 수정 저장 add commit | clone으로 같은 버전의 share파일 만듦 | (git lecture <-> hub <-> share)
 first
 second
 third
+fourth
