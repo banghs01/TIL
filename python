@@ -13,3 +13,4 @@ urllib, html태그, CSS Selector
 html = requests.get(url)  # url에서 데이터 요청
 soup = bs(html.text, "html.parser")  # 요청 데이터를 파싱 진행
 find_div = soup.find("div", class_="group_nav") #F12 단축키를 이용
+JSON으로 읽어와 dataFrame으로 원하는 데이터만 출력
