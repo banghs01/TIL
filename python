@@ -1,0 +1,16 @@
+# 깃허브 특강 다음날 까먹지 않기 위해 복습
+수정- 저장- add- commit- push
+git add . | git commit -m '~~' | git push origin master
+
+# 0323 파이썬 내용
+날씨 공공데이터의 키를 이용해 url생성
+request로 데이터 받아옴
+JSON으로 읽어와 dataFrame으로 원하는 데이터만 출력
+
+# 0324 파이썬_(벅스뮤직 크롤링)
+가수별, 곡별 차트를 그려 증감을 확인
+urllib, html태그, CSS Selector
+html = requests.get(url)  # url에서 데이터 요청
+soup = bs(html.text, "html.parser")  # 요청 데이터를 파싱 진행
+find_div = soup.find("div", class_="group_nav") #F12 단축키를 이용
+JSON으로 읽어와 dataFrame으로 원하는 데이터만 출력
